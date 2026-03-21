@@ -35,10 +35,11 @@ if __name__ == "__main__":
 
             logs_para_enviar = []
             
-            numero_de_logs = random.randint(1, 5)
+            numero_de_logs = 2
             print("Voy a generar", numero_de_logs, "logs.")
 
-            for i in range(numero_de_logs):
+            for i in range(2):
+            
                 un_log = {
                     "timestamp": datetime.utcnow().isoformat() + "Z",
                     "service": nombre_del_servicio,

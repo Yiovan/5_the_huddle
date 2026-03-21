@@ -95,10 +95,10 @@ def get_logs(
     params = []
 
     # Le voy añadiendo los filtros a la consulta si el usuario los mandó
-    if timestamp_start:
+    if timestamp_start: #momento que el envio un evento osea cuando envio 
         query = query + " AND timestamp >= ?"
         params.append(timestamp_start)
-    if timestamp_end:
+    if timestamp_end: #momento donde termino ek evento
         query = query + " AND timestamp <= ?"
         params.append(timestamp_end)
     if received_at_start:
