@@ -1,15 +1,15 @@
-# 📝 The Huddle - Servidor de Logging Distribuido
+#  The Huddle - Servidor de Logging Distribuido
 
 Este proyecto es una implementación para el desafío de logging de "The Huddle". Consiste en un sistema de logging distribuido compuesto por un servidor central y clientes simulados que envían logs a través de HTTP.
 
 El objetivo es tener un punto centralizado que reciba, autentique, almacene y permita consultar logs de diferentes servicios.
 
-## 📋 Requisitos Previos
+##  Requisitos Previos
 
 - Python 3.7+
 - `pip` (el gestor de paquetes de Python)
 
-## 🚀 Instalación y Configuración
+##  Instalación y Configuración
 
 1.  **Clona o descarga el repositorio.**
 
@@ -31,7 +31,7 @@ El objetivo es tener un punto centralizado que reciba, autentique, almacene y pe
     pip install -r requirements.txt
     ```
 
-## ▶️ Ejecución del Sistema
+##  Ejecución del Sistema
 
 Necesitarás dos terminales: una para el servidor y otra para el cliente.
 
@@ -72,7 +72,7 @@ Presiona CTRL+C para detener.
 ...
 ```
 
-## ⚙️ API Endpoints
+##  API Endpoints
 
 ### Enviar Logs
 
